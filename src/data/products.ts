@@ -8,8 +8,8 @@ export const products: Product[] = [
     processor: "Intel Core i5 11ª geração",
     ram: "8GB",
     storage: "256GB SSD",
-    price: 3499,
-    image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&h=600&fit=crop"
+    price: 2398,
+    image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3530-intel/media-gallery/black/notebook-inspiron-15-3530-nt-plastic-black-gallery-5.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=656&qlt=100,1&resMode=sharp2&size=656,402&chrss=full"
   },
   {
     id: 2,
@@ -42,24 +42,14 @@ export const products: Product[] = [
     image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=600&fit=crop"
   },
   {
-    id: 5,
-    brand: "Acer",
-    model: "Aspire 5",
-    processor: "AMD Ryzen 7 5700U",
-    ram: "16GB",
-    storage: "512GB SSD",
-    price: 4599,
-    image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&h=600&fit=crop"
-  },
-  {
     id: 6,
     brand: "Dell",
     model: "Vostro 15 3000",
     processor: "Intel Core i7 11ª geração",
     ram: "16GB",
     storage: "1TB SSD",
-    price: 5999,
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&h=600&fit=crop"
+    price: 4289,
+    image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-2-in-1-7440-intel/media-gallery/notebook-inspiron-14-7440-t-ice-blue-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=630&qlt=100,1&resMode=sharp2&size=630,402&chrss=full"
   },
   {
     id: 7,
@@ -70,16 +60,6 @@ export const products: Product[] = [
     storage: "256GB SSD",
     price: 4299,
     image: "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800&h=600&fit=crop"
-  },
-  {
-    id: 8,
-    brand: "HP",
-    model: "ProBook 450 G8",
-    processor: "Intel Core i7 11ª geração",
-    ram: "32GB",
-    storage: "1TB SSD",
-    price: 7499,
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&h=600&fit=crop"
   },
   {
     id: 9,
@@ -110,15 +90,5 @@ export const products: Product[] = [
     storage: "512GB SSD",
     price: 8999,
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
-  },
-  {
-    id: 12,
-    brand: "Lenovo",
-    model: "Legion 5",
-    processor: "AMD Ryzen 7 5800H",
-    ram: "16GB",
-    storage: "1TB SSD",
-    price: 6799,
-    image: "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=800&h=600&fit=crop"
   }
 ];

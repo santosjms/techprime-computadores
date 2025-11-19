@@ -7,6 +7,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Product } from "./ProductCard";
 import { Cpu, HardDrive, MemoryStick, Laptop, MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface ProductModalProps {
   product: Product | null;
@@ -100,7 +101,7 @@ const ProductModal = ({ product, open, onClose }: ProductModalProps) => {
               className="w-full bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-glow transition-all duration-300 gap-2 h-11 sm:h-12 text-sm sm:text-base"
               size="lg"
             >
-              <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
+              <FaWhatsapp className="w-5 h-5" />
               Falar com o vendedor
             </Button>
           </div>
